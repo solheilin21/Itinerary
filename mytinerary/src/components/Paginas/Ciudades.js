@@ -7,7 +7,7 @@ import Search from '../Search/Search'
 
 
 const Ciudades = () => {
-  const [{ cities }, dispatch] = useStateValue()
+  const [{ filterCities}, dispatch] = useStateValue()
 
   return (
     <>
@@ -15,7 +15,7 @@ const Ciudades = () => {
 
 
    <div className="prueba">
-      {cities.map((item) => {
+      {filterCities?.map((item) => {
             return (
               <div className="cardcontainer" >
 

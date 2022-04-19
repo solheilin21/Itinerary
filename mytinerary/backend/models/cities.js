@@ -4,7 +4,7 @@ const citiesSchema = new mongoose.Schema({
 
       name:{type:String, require:true},
       country:{type:String, require:true},
-       descripction:{type:String, require:true},
+      descripction:{type:String, require:true},
       currency:{type:String, require:true},
       language: {type:String, require:true},
       continent: {type:String, require:true},

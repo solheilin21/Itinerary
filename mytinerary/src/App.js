@@ -9,6 +9,7 @@ import { actionType } from './reducer';
 import { useStateValue } from './StateProvider';
 import { useEffect } from 'react';
 import './App.css';
+import Signup from './components/Usuario/Signup'
 import Signin from './components/Usuario/Signin'
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path='/inicio' element={<Inicio />} />
           <Route path='/ciudades' element={<Ciudades />} />
           <Route path='/city/:id' element={<City />} />
+          <Route path='/signup' element={<Signup />} />
           <Route path='/signin' element={<Signin />} />
 
         </Routes>
